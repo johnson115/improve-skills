@@ -4,8 +4,8 @@ import "./header.css" ;
 
 const Header = () => {
   return (
-    <div>
-      <header className="hide-when-mobile">
+    <div className="myheader">
+      <header className="hide-when-mobile ali">
         <Link to="/">
         
         <h1>React Project</h1>
@@ -67,7 +67,7 @@ const Header = () => {
         </ul>
       </header>
 
-       <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+       <header style={{ backgroundColor: "red" }} className="show-when-mobile ali">
         <h1>React Project</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />

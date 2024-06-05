@@ -3,9 +3,9 @@ import "./footer.css" ;
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="ali">
       Designed and developed by Amen allah Naamen
-      <span> 🧡</span>
+      <span> &#169; 2027 🧡</span>
     </footer>
   );
 };
