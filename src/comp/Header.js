@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink , Link } from "react-router-dom";
-
+import "./header.css" ;
 
 const Header = () => {
   return (
@@ -67,8 +67,8 @@ const Header = () => {
         </ul>
       </header>
 
-      {/* <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>c4a.dev **</h1>
+       <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+        <h1>React Project</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -134,7 +134,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </header> */}
+      </header> 
     </div>
   );
 };

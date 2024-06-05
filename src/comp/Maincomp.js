@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import "./main.css" ;
 
 const Maincomp = ({pageName , Designer }) => {
   return (

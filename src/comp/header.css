@@ -1,0 +1,13 @@
+.show-when-mobile {
+  display: none;
+}
+
+@media (max-width: 800px   ){
+  .show-when-mobile {
+    display: block;
+  }
+  
+  .hide-when-mobile {
+    display: none;
+  }
+}
