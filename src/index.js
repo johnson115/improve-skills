@@ -5,8 +5,7 @@ import Home from "./pages/home";
 import Html from "./pages/html";
 import Css from "./pages/css";
 import { HelmetProvider } from "react-helmet-async";
-
-
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration" ;
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -35,6 +34,7 @@ root.render(
     </HelmetProvider>
   </React.StrictMode>
 );
+serviceWorkerRegistration.register();
 
 
 // If you want to start measuring performance in your app, pass a function
